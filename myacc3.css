@@ -1,0 +1,20 @@
+h3{
+    
+    background-color: #fae1dd;
+    
+}
+#gpay{
+    
+    text-decoration: none;
+    color:black;
+
+}
+
+.hide {
+  display: none;
+}
+    
+.favs:hover + .hide {
+  display: block;
+  color: red;
+}

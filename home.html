@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="homeStyle.css" media="screen">
+</head>
+
+<body style="font-family:Verdana;">
+
+  <div class="header">
+  <img src="bac4.jpg" style="height: 400px; padding-left: 30%; padding-right: 30%; "></img>
+  <h1 style="text-align: center; font-family: Georgia; font-weight: bolder;">
+  </h1>
+  </div>
+
+
+  <div class="navbar">
+    <a href="home.html">Home</a>
+    <a href="Aboutus.html">About Us</a>
+    <a href="contactus.html">Contact Us</a>
+    
+    <a href="cart.html">Cart</a>
+    <div class="dropdown">
+      <button class="dropbtn" style="color: yellow;"> Cuisines to Order
+      </button>
+      <div class="dropdown-content">
+        <a href="breakfast.html" target="_blank">Breakfast</a>
+        <a href="soups.html" target="_blank">Soups</a>
+        <a href="indian.html" target="_blank">Indian</a>
+        <a href="chinese.html" target="_blank">Chinese</a>
+        <a href="italian.html" target="_blank">Italian & Mexican</a>
+        <a href="celebrations.html" target="_blank">Desserts</a>
+        <a href="drinks.html" target="_blank">Drinks & Shakes</a>
+        <a href="special.html" target="_blank">Chef's Special</a>
+
+      </div>
+    </div> 
+    <a href="FEEDBACK.html"  style="text-align: right;">Feedback</a>
+    <a href="review.html"  style="text-align: right;">Reviews</a>
+    <a href="myacc.html" style="text-align: none">My Account</a>
+  </div>
+<br><br>
+
+  <div class="box">
+    <div class="contents">
+    <b style="font-size: 50px"><i> Welcome to Connoisseur </i></b> <br><br>
+    This website provides you <br>
+    delicious mouth watering recipes at your doorsteps<br>
+    <br>
+    We have exceptionally talented chef's providing you with almost<br>
+    every type of cuisine be it Indian or Italian or Chinese. <br>
+    <br>
+    So what are you waiting for.....<br><br>
+
+    Just Click... Order... Eat... and... Repeat ;)<br><br>
+
+    Thank you for stepping by.<br>
+    <br>
+    Hope to see you again soon.
+    <br><br>
+  </div>
+  </div>
+  <br><br>
+<br><br>
+  
+  <div class="w3-content w3-section" style="width: 100%;">
+    <img class="mySlides" src="slide1.PNG" style="width:100%; height:200">
+    <img class="mySlides" src="slide2.PNG" style="width:100%; height:200 ">
+    <img class="mySlides" src="slide3.PNG" style="width:100% ;height:200">
+  </div>
+  
+  <script>
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000); 
+  }
+  </script>
+
+
+  <br><br><br><br>
+
+  
+<div class="footer">
+  <br>
+<b style="font-family: Georgia;"> Connoisseur - Food Delivery Website | For more details see Contact tab above </b>
+</div>
+</body>
+</html>
+
