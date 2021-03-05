@@ -1,0 +1,104 @@
+.products-container {
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.product-header {
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightgray;
+    margin: 0 auto;
+}
+
+.product-title {
+    width: 45%;
+    border-bottom: 1px solid lightgray;
+}
+
+.product {
+    width: 45%;
+    border-bottom: 1px solid lightgray;
+}
+
+.price {
+    width: 15%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.quantity {
+    width: 30%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.total {
+    width: 10%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+.products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.basketTotalContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.basketTotaltitle {
+    width: 30%;
+}
+
+.basketTotal {
+    width: 10%;
+}
+
+a.button1 {
+    align-self: center;
+    padding-left: 45% ;
+    padding-right: 30%;
+    justify-content: center;
+    max-width: 40px;
+    margin:0 0.3em 0.3em 0;
+    text-decoration:none;
+    font-weight:300;
+    box-sizing: border-box;
+    font-family:'Roboto',sans-serif;
+    border-radius:0.12em;
+    border:0.1em solid #FFFFFF;
+    display:inline-block;
+}
+
+/* button design */
+.btn{
+    padding: 1px 26px;
+    border: 2px solid rgb(14, 13, 13);
+    border-radius: 17px;
+    background-color: rgb(255, 255, 255);
+    margin: 17px;
+    font-size: 1.5rem;
+    font-family: fantasy;
+    color: rgb(0, 0, 0);
+    cursor:pointer;
+
+}
+.btn:hover{
+ color: rgb(244, 248, 244);
+ background-color: rgb(170, 3, 67);
+}
